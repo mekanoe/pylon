@@ -1,0 +1,73 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "4IOT8UR9wSZgyMvEXDVKnF36B9Q=",
+			"path": "github.com/Shopify/sarama",
+			"revision": "97511b29ac093c98470373da24fe7072cafa1f09",
+			"revisionTime": "2016-05-17T12:27:25Z"
+		},
+		{
+			"checksumSHA1": "ezaW8uTHv9dBJUuFB1GzH6Lzgys=",
+			"path": "github.com/bsm/sarama-cluster",
+			"revision": "122d1380662642f52d112e7e7e8d2c1e0c12e086",
+			"revisionTime": "2016-05-03T10:32:59Z"
+		},
+		{
+			"checksumSHA1": "5rPfda8jFccr3A6heL+JAmi9K9g=",
+			"path": "github.com/davecgh/go-spew/spew",
+			"revision": "5215b55f46b2b919f50a1df0eaa5886afe4e3b3d",
+			"revisionTime": "2015-11-05T21:09:06Z"
+		},
+		{
+			"checksumSHA1": "y2Kh4iPlgCPXSGTCcFpzePYdzzg=",
+			"path": "github.com/eapache/go-resiliency/breaker",
+			"revision": "b86b1ec0dd4209a588dc1285cdd471e73525c0b3",
+			"revisionTime": "2016-01-04T19:15:39Z"
+		},
+		{
+			"checksumSHA1": "AEGF/lRMFJukJAnRqdCVQ/0I+BY=",
+			"path": "github.com/eapache/queue",
+			"revision": "ded5959c0d4e360646dc9e9908cff48666781367",
+			"revisionTime": "2015-06-06T11:53:03Z"
+		},
+		{
+			"checksumSHA1": "zX5MzVN3WvXZvC6QxJSSnCQVZHA=",
+			"path": "github.com/golang/snappy",
+			"revision": "70f093abd7c11f120162d8f77684deadbe37bbf2",
+			"revisionTime": "2016-04-10T06:29:43Z"
+		},
+		{
+			"checksumSHA1": "hX+j017F4PEtIUGflAneDtLC6hs=",
+			"path": "github.com/klauspost/crc32",
+			"revision": "19b0b332c9e4516a6370a0456e6182c3b5036720",
+			"revisionTime": "2016-02-19T14:26:09Z"
+		},
+		{
+			"checksumSHA1": "8ZSsHmBOqTGuBju5jVDV77qGYGo=",
+			"path": "github.com/mediocregopher/radix.v2/pool",
+			"revision": "74e50e64194d2d2f4836212451c28b127f9d7fa1",
+			"revisionTime": "2016-04-15T23:49:38Z"
+		},
+		{
+			"checksumSHA1": "16UHP9YVwZhtTmWawN1dVPdohvE=",
+			"path": "github.com/mediocregopher/radix.v2/redis",
+			"revision": "74e50e64194d2d2f4836212451c28b127f9d7fa1",
+			"revisionTime": "2016-04-15T23:49:38Z"
+		},
+		{
+			"checksumSHA1": "itDWaOxOe8M1GH0+YHfl37pNX1E=",
+			"path": "github.com/satori/go.uuid",
+			"revision": "08f0718b61e95ddba0ade3346725fe0e4bf28ca6",
+			"revisionTime": "2015-08-29T02:49:07Z"
+		},
+		{
+			"checksumSHA1": "T7/8eEhsawZhtl53S42KfxO4N6o=",
+			"path": "gopkg.in/Shopify/sarama.v1",
+			"revision": "38d579a708d2f87dd4e35342241048e361d1e66a",
+			"revisionTime": "2016-05-16T18:24:53Z"
+		}
+	],
+	"rootPath": "github.com/kayteh/pylon"
+}

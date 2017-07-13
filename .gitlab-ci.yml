@@ -1,0 +1,36 @@
+stages:
+ - test
+ - cleanup-services
+
+variables:
+  DOCKER_HOST: unix:///var/run/docker.sock
+  DOCKER_COMPOSE: docker-compose -f docker/compose-ci.yml
+  PYLON_DIR: /go/src/github.com/kayteh/pylon
+
+go_test:
+  stage: test
+  variables:
+    GOPATH: /go
+  before_script:
+    - git rev-parse --short HEAD > revision~
+    - go get -u github.com/kardianos/govendor
+    - rm -rf $PYLON_DIR
+    - mkdir -p $PYLON_DIR
+    - cp -r ./* $PYLON_DIR
+    - cd $PYLON_DIR
+    - /go/bin/govendor sync
+    - $DOCKER_COMPOSE up -d
+  script: make test-ci
+  after_script:
+    - rm -rf $PYLON_DIR
+  tags: 
+   - shell
+
+dc_down:
+  stage: cleanup-services
+  script: 
+    - cd $PYLON_DIR
+    - $DOCKER_COMPOSE down
+  when: always
+  tags: 
+   - shell
