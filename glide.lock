@@ -1,0 +1,39 @@
+hash: 055cba7cfbcf2e34b814a2f7d598a6e35f481d0ee58e29afc46953fcee74b984
+updated: 2017-07-13T03:36:39.983968285-05:00
+imports:
+- name: github.com/bsm/sarama-cluster
+  version: ccdc0803695fbce22f1706d04ded46cd518fd832
+- name: github.com/davecgh/go-spew
+  version: adab96458c51a58dc1783b3335dcce5461522e75
+  subpackages:
+  - spew
+- name: github.com/eapache/go-resiliency
+  version: b1fe83b5b03f624450823b751b662259ffc6af70
+  subpackages:
+  - breaker
+- name: github.com/eapache/go-xerial-snappy
+  version: bb955e01b9346ac19dc29eb16586c90ded99a98c
+- name: github.com/eapache/queue
+  version: 44cc805cf13205b55f69e14bcb69867d1ae92f98
+- name: github.com/golang/snappy
+  version: d9eb7a3d35ec988b8585d4a0068e462c27d28380
+- name: github.com/mediocregopher/radix.v2
+  version: 94451b037e02236d550bdc2035d0a9851749369b
+  subpackages:
+  - pool
+  - redis
+- name: github.com/pierrec/lz4
+  version: 5a3d2245f97fc249850e7802e3c01fad02a1c316
+- name: github.com/pierrec/xxHash
+  version: 5a004441f897722c627870a981d02b29924215fa
+  subpackages:
+  - xxHash32
+- name: github.com/rcrowley/go-metrics
+  version: 1f30fe9094a513ce4c700b9a54458bbb0c96996c
+- name: github.com/Shopify/sarama
+  version: c01858abb625b73a3af51d0798e4ad42c8147093
+- name: gopkg.in/Shopify/sarama.v1
+  version: c01858abb625b73a3af51d0798e4ad42c8147093
+testImports:
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb

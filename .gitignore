@@ -1,4 +1,4 @@
-vendor/*/*
-.data/*/*
+vendor/
+.data/
 ./pylond
 ./pylon0
